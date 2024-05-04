@@ -51,7 +51,7 @@ pipeline {
                  body: "The pipeline completed successfully."
         }
         failure {
-            mail to: "jnaneshwarib63@gmail.com.com",
+            mail to: "jnaneshwarib63@gmail.com",
                  subject: "Pipeline Failure",
                  body: "The pipeline failed. Please check the logs."
         }
